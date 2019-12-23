@@ -1,0 +1,25 @@
+#! /bin/bash
+
+cd /root/ghost-ng
+
+echo Setting Up...
+sleep 1
+cp /ghostlansc-ng/lansc.py /root/ghostlansc-ng
+chmod 755 /root/ghostlansc-ng
+cd ..
+mkdir ghostlanscng-etc
+cd ghostlanscng-etc
+mkdir tasks
+cp /root/ghost-ng/ghostlansc-ng/lansc.conf /root/ghostlanscng-etc/lansc.conf
+cd ..
+cp /ghostdos-ng/ddos.py /root/ghostdos-ng
+chmod 755 /root/ghostdos-ng
+mkdir ghostdosng-etc
+cd ghostdosng-etc
+cp /root/ghost-ng/ghostdos-ng/ddos.conf /root/ghostdosng-etc/ddos.conf
+echo Copying Core Files...
+sleep 3
+echo Changing Permissions...
+sleep 2
+echo Done...
+cd ..
