@@ -1,8 +1,8 @@
-# Ghost-NG Kali Realease 2019.4 And Later
+# Ghost-NG Termux Release 0.73 And Later
 
 Developed by RaidTheWeb, Install with:
 
-    root@kali:~# git clone https://github.com/RaidTheWeb/ghost-ng.git
+    root git clone https://github.com/RaidTheWeb/ghost-ng.git
     
 Then Allow Execute Permissions with:
 
